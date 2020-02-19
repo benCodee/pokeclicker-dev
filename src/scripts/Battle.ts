@@ -109,7 +109,7 @@ class Battle {
         if (random <= this.catchRateActual()) {
             this.catchPokemon();
         }
-        this.catching(false);
+        this.catching(true);
         this.catchRateActual(null);
     }
 
